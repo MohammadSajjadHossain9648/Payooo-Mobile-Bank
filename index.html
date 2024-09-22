@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo Mobile Bank</title>
+    <link rel="icon" type="image/x-icon" href="images/payoo.png">
     <!-- Font CSS file -->
     <link rel="stylesheet" href="styles/font.css">
     <!-- daisyUI 4.12.10 CSS file + Tailwind CSS CDN -->
@@ -13,6 +14,45 @@
     <script src="tailwind_customize_config.js"></script>
 </head>
 <body class="font_outfit">
+    <main class="flex justify-center">
+        <!-- phone section -->
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-3">
 
+                <!-- login section -->
+                <div class="hero bg-base-200 min-h-screen">
+                    <div class="hero-content">
+                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">Mobile Number</span>
+                            </label>
+                            <input type="text" id="mobile_number" name="mobile_number" placeholder="Enter your number" class="input input-bordered [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" required />
+                          </div>
+                          <div class="form-control">
+                            <label class="label">
+                              <span class="label-text">4 Digit Pin</span>
+                            </label>
+                            <input type="number" id="pin" name="pin" placeholder="Enter 4 Digit Pin" class="input input-bordered [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" required />
+                            <label class="label">
+                              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                            </label>
+                          </div>
+                          <div class="form-control mt-6">
+                            <button class="btn btn-primary">Login</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+
+              </div>
+            </div>
+          </div>
+    </main>
 </body>
 </html>
